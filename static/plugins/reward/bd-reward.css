@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+*{-webkit-tap-highlight-color:rgba(255,0,0,0)}
+.box-size{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}
+.bd-hide{display:none}
+.bd-reward-stl{font-family:"microsoft yahei";text-align:center;background:#f1f1f1;padding:10px 0;color:#666;margin:20px auto;width:90%}
+#bdRewardBtn{border:0;outline:0;border-radius:100%;padding:0;margin:0}
+#bdRewardBtn span{display:inline-block;width:50px;height:50px;border-radius:100%;line-height:58px;color:#fff;font:400 25px/50px 'microsoft yahei';background:#FEC22C}
+#bdRewardBtn:hover{cursor:pointer}
+.bd-payment-way{text-align:left}
+.bd-payment-way label{cursor:pointer;font-weight:400;display:inline-block;font-size:14px;margin:0 30px 0 0;padding:0}
+.bd-payment-way input[type=radio]{vertical-align:middle;margin:-2px 5px 0 0}
+.bd-payment-img{margin:15px 0;text-align:center}
+p.bd-pay-info{font-size:15px;margin:0 0 10px}
+.bd-pay-money{font-size:14px;margin-top:10px}
+.bd-pay-money p{margin:0}
+.bd-pay-money .bd-pay-money-sum{margin-bottom:4px}
+.bd-payment-img img{margin:0 auto}
+.bd-payment-img #qrCode_1{display:none}
+.bd-payment-img .qrcode-border{margin:0 auto}
+.bd-payment-img .qrcode-tip{position:relative;margin:0 auto;font-size:12px;font-weight:700;background:#fff;height:15px;line-height:15px;margin-top:-12px}
+#qrCode_0 .qrcode-tip{color:#e10602}
+.bd-payment-img #qrCode_2{display:none}
+#qrCode_2 .qrcode-tip{color:#3caf36}
+.wx_qrcode_container{text-align:center}
+.wx_qrcode_container img{width:200px}
+.wx_qrcode_container p{font-size:14px;height:20px;line-height:20px;margin:0;padding:0}
